@@ -1,0 +1,40 @@
+name: note_keeper
+description: "A beautiful note-taking app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FF9F43"
+  adaptive_icon_foreground: "assets/icon.png"
+
+flutter_native_splash:
+  color: "#FF9F43"
+  image: assets/icon.png
+  color_dark: "#FF9F43"
+  image_dark: assets/icon.png
+  android_12:
+    color: "#FF9F43"
+    icon_background_color: "#FF9F43"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
